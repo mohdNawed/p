@@ -2,7 +2,7 @@ package Sorting;
 
 import java.util.Arrays;
 
-public class Bubble {
+public class bubble {
 
     public static void bubbleSort(int[] arr) {
 
