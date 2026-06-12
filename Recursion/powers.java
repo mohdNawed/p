@@ -9,7 +9,18 @@ public class powers {
         return a * power(a, b - 1);
     }
 
+    static int fib(int n) {
+        if (n <= 1)
+            return n;
+
+        return fib(n - 1) + fib(n - 2);
+    }
+
     public static void main(String[] args) {
-        power(4, 6);
+        int a = 5;
+        int b = 6;
+
+        power(a, b);
+        fib(b);
     }
 }
